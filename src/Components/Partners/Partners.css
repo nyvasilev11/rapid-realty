@@ -1,0 +1,32 @@
+.Partners {
+  padding: 100px 0;
+}
+
+.Partners-title {
+  font-size: 3.2rem;
+  letter-spacing: .5p;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #212529;
+}
+
+.Partners-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 950px) {
+  .Partners .Partners-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (100px)[3];
+        grid-template-columns: repeat(3, 100px);
+    grid-gap: 35px;
+  }
+}

@@ -1,0 +1,20 @@
+*
+  outline: none
+  padding: 0
+  margin: 0
+
+  p, h1
+    cursor: default
+
+@mixin container($width, $max-width)
+  width: $width
+  max-width: $max-width
+  margin: 0 auto
+
+.App-container
+  padding: 0 30px 25px
+.container
+  @include container( 85%,1100px)
+
+.sm-container
+  @include container( 85%,1000px)

@@ -1,0 +1,55 @@
+.Quote
+    padding: 200px 0
+    text-align: center
+    position: relative
+    overflow: hidden
+    margin-bottom: 30px
+    background: #ffffffd0
+
+    i
+        font-size: 4rem
+        margin-bottom: 13px
+        color: #95C425
+
+    h1
+        padding: 20px
+        max-width: 910px
+        margin: 0 auto
+        margin-bottom: 40px
+        font-weight: 400
+        font-size: 2.3rem
+        color: #5C5E60
+
+    p
+        max-width: 275px
+        margin: 0 auto
+        font-size: 1.1rem
+        font-weight: 700
+        position: relative
+        text-shadow: 2px 2px 5px #e3e3e3
+        &:before
+            content: ""
+            position: absolute
+            width: 60px
+            height: 2px
+            border-radius: 10px
+            top: 50%
+            left: 0
+            background: #AFAFAE
+
+    img
+        background-attachment: fixed
+        position: absolute
+        z-index: -1
+        top: 0
+        left: 0
+        height: 1000px
+        width: 100%
+        object-fit: cover
+        object-position: center
+
+@media screen and ( max-width: 900px )
+    .Quote
+        h1
+            font-size: 1.8rem
+            margin-bottom: 20px

@@ -1,0 +1,116 @@
+.Location {
+  padding: 100px 0;
+}
+
+.Location-title {
+  font-size: 3.8rem;
+  margin-bottom: 15px;
+  color: #212529;
+}
+
+.Location-description {
+  color: #9d9fa1;
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 0.3px;
+  margin-bottom: 80px;
+}
+
+.Location .map-container {
+  position: relative;
+}
+
+.Location .map-container iframe {
+  width: 100%;
+  border-radius: 5px;
+  background: #dadddf;
+  outline: none;
+}
+
+.Location .map-container .map-description {
+  position: absolute;
+  bottom: -65px;
+  left: 30px;
+  background: white;
+  overflow: hidden;
+  width: 260px;
+  -webkit-box-shadow: 2px 2px 6px #00000059;
+  box-shadow: 2px 2px 6px #00000059;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 3px;
+}
+
+.Location .map-container .map-description .map-info {
+  padding: 30px 25px;
+}
+
+.Location .map-container .map-description .map-info-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.Location .map-container .map-description .map-info-address {
+  font-size: 1rem;
+  line-height: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.Location .map-container .map-description .map-info-latitude {
+  margin-bottom: 8px;
+}
+
+.Location .map-container .map-description .map-info-latitude,
+.Location .map-container .map-description .map-info-longitude {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.Location .map-container .map-description img {
+  height: 180px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .Location .map-container .map-description {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    background: white;
+    overflow: hidden;
+    width: 100%;
+    -webkit-box-shadow: 2px 2px 6px #00000059;
+    box-shadow: 2px 2px 6px #00000059;
+    padding: 0;
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-radius: 3px;
+  }
+  .Location .map-container .map-description .map-info {
+    padding: 40px 30px;
+  }
+}

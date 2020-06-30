@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/rapid-realty/static/css/main.d756ed01.chunk.css",
+    "main.js": "/rapid-realty/static/js/main.347dc824.chunk.js",
+    "main.js.map": "/rapid-realty/static/js/main.347dc824.chunk.js.map",
+    "runtime-main.js": "/rapid-realty/static/js/runtime-main.9fb6b66f.js",
+    "runtime-main.js.map": "/rapid-realty/static/js/runtime-main.9fb6b66f.js.map",
+    "static/js/2.6bfe4a94.chunk.js": "/rapid-realty/static/js/2.6bfe4a94.chunk.js",
+    "static/js/2.6bfe4a94.chunk.js.map": "/rapid-realty/static/js/2.6bfe4a94.chunk.js.map",
+    "index.html": "/rapid-realty/index.html",
+    "precache-manifest.5009ba128627913e66e1fc7062389d1a.js": "/rapid-realty/precache-manifest.5009ba128627913e66e1fc7062389d1a.js",
+    "service-worker.js": "/rapid-realty/service-worker.js",
+    "static/css/main.d756ed01.chunk.css.map": "/rapid-realty/static/css/main.d756ed01.chunk.css.map",
+    "static/js/2.6bfe4a94.chunk.js.LICENSE.txt": "/rapid-realty/static/js/2.6bfe4a94.chunk.js.LICENSE.txt",
+    "static/media/author-01.jpg": "/rapid-realty/static/media/author-01.d7bfdd27.jpg",
+    "static/media/gallery-01.jpg": "/rapid-realty/static/media/gallery-01.7149ceb9.jpg",
+    "static/media/gallery-02.jpg": "/rapid-realty/static/media/gallery-02.d7748221.jpg",
+    "static/media/gallery-03.jpg": "/rapid-realty/static/media/gallery-03.655322b9.jpg",
+    "static/media/gallery-05.jpg": "/rapid-realty/static/media/gallery-05.8ca80842.jpg",
+    "static/media/image-01.jpg": "/rapid-realty/static/media/image-01.79f41d0b.jpg",
+    "static/media/image-02.jpg": "/rapid-realty/static/media/image-02.90e2d056.jpg",
+    "static/media/image-03.jpg": "/rapid-realty/static/media/image-03.4ff6a949.jpg",
+    "static/media/image-04.jpg": "/rapid-realty/static/media/image-04.3023be46.jpg",
+    "static/media/image-05.jpg": "/rapid-realty/static/media/image-05.7df66ce9.jpg",
+    "static/media/logo.png": "/rapid-realty/static/media/logo.3b1378ba.png",
+    "static/media/Features.css": "/rapid-realty/static/media/pattern-topo.5c5f593a.png",
+    "static/media/slide-01.jpg": "/rapid-realty/static/media/slide-01.eaffee14.jpg",
+    "static/media/white_logo.png": "/rapid-realty/static/media/white_logo.b458f28c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fb6b66f.js",
+    "static/js/2.6bfe4a94.chunk.js",
+    "static/css/main.d756ed01.chunk.css",
+    "static/js/main.347dc824.chunk.js"
+  ]
+}

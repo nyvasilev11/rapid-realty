@@ -1,0 +1,105 @@
+.Developing {
+  padding: 100px 0;
+}
+
+.Developing-title {
+  text-align: center;
+  color: #212529;
+  margin-bottom: 90px;
+  font-size: 3.2rem;
+}
+
+.Developing .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.Developing .content .left-side {
+  margin-right: 80px;
+}
+
+.Developing .content .left-side img {
+  max-height: 350px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 6px #00000062;
+          box-shadow: 2px 2px 6px #00000062;
+}
+
+.Developing .content .right-side .box {
+  margin-bottom: 40px;
+}
+
+.Developing .content .right-side .box .phase-title {
+  color: #909294;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.Developing .content .right-side .box .phase-title::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 10px;
+  background: #BFDC7C;
+  border-radius: 10px;
+  top: 50%;
+  left: -20px;
+}
+
+.Developing .content .right-side .box p.sub-title {
+  color: #212529;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.Developing .content .right-side .box p.sub-title span {
+  background: #28A745;
+  color: white;
+  font-size: .8rem;
+  padding: 3px 4px;
+}
+
+.Developing .content .right-side .box p.sub-title span.grey {
+  background: grey;
+}
+
+.Developing .content .right-side .box p.text {
+  color: #868E96;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .Developing .content {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    grid-gap: 50px;
+  }
+  .Developing .content .left-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .Developing .content .right-side {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    padding: 0 60px;
+  }
+}

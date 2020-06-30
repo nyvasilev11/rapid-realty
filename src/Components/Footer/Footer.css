@@ -1,0 +1,35 @@
+.Footer {
+  height: 70px;
+  width: 100%;
+  background: #95C425;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer .logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer .logo-container img {
+  height: 40px;
+  margin-right: 8px;
+}
+
+.Footer .logo-container p {
+  color: white;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: 1.1rem;
+}

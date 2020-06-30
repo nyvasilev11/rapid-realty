@@ -1,0 +1,99 @@
+.Features {
+  position: relative;
+  padding: 150px 0;
+  overflow: hidden;
+}
+
+.Features:before {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: .9;
+  background: #F9F9F9;
+}
+
+.Features .title {
+  text-align: center;
+  color: #212529;
+  margin-bottom: 80px;
+  font-size: 3rem;
+}
+
+.Features .bg-features {
+  position: absolute;
+  top: 0;
+  background: url("../../img/pattern-topo.png");
+  height: 100%;
+  width: 100%;
+  z-index: -22;
+}
+
+.Features .box-container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -ms-grid-columns: (minmax(280px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 40px;
+}
+
+.Features .box-container .box {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 6px #00000069;
+          box-shadow: 2px 2px 6px #00000069;
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow .5s;
+  transition: -webkit-box-shadow .5s;
+  transition: box-shadow .5s;
+  transition: box-shadow .5s, -webkit-box-shadow .5s;
+}
+
+.Features .box-container .box:hover {
+  -webkit-box-shadow: 10px 10px 20px #0000008c;
+          box-shadow: 10px 10px 20px #0000008c;
+}
+
+.Features .box-container .box:after {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  opacity: .7;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(45%, transparent), to(black));
+  background: linear-gradient(to bottom, transparent 45%, black);
+}
+
+.Features .box-container .box img {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.Features .box-container .box h1 {
+  font-size: 2.6rem;
+  line-height: 3rem;
+  letter-spacing: .5px;
+  padding-left: 20px;
+  position: absolute;
+  z-index: 2;
+  bottom: 10px;
+  color: white;
+}

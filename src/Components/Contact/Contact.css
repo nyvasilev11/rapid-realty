@@ -1,0 +1,196 @@
+.Contact {
+  padding: 100px 0 130px;
+  color: #212529;
+  background: url("http://themestarz.net/html/housing/assets/img/pattern-dot.png");
+}
+
+.Contact-title {
+  font-size: 3.2rem;
+  letter-spacing: .5px;
+  margin-bottom: 60px;
+}
+
+.Contact-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+}
+
+.Contact-left-side .separator {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (170px)[2];
+      grid-template-columns: repeat(2, 170px);
+  grid-gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Contact-left-side .separator .name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #212529;
+  margin-bottom: 17px;
+  letter-spacing: .3px;
+}
+
+.Contact-left-side .separator p {
+  margin-bottom: 10px;
+}
+
+.Contact-left-side .separator p strong {
+  font-size: .8rem;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.Contact-left-side-title {
+  margin-bottom: 25px;
+  letter-spacing: .2px;
+}
+
+.Contact-left-side img {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-box-shadow: 1px 1px 8px #0000003d;
+          box-shadow: 1px 1px 8px #0000003d;
+}
+
+.Contact-right-side-title {
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  color: #212529;
+}
+
+.Contact-right-side .input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Contact-right-side label {
+  font-size: .8rem;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 18px;
+}
+
+.Contact-right-side textarea {
+  min-height: 160px;
+}
+
+.Contact-right-side input, .Contact-right-side textarea {
+  border: 2px solid #D9D9D9;
+  border-radius: 3px;
+  padding: 15px 13px;
+  color: #63696F;
+  letter-spacing: .2px;
+  font-size: .95rem;
+  margin-bottom: 25px;
+}
+
+.Contact-right-side .input-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.Contact-right-side .input-box:first-child {
+  margin-right: 15px;
+}
+
+.Contact-right-side .textarea-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Contact-right-side .textarea-container label {
+  margin-bottom: 18px;
+}
+
+.Contact-right-side button {
+  border: 4px solid #A0CA3B;
+  padding: 10px 15px;
+  color: #272727;
+  font-weight: 500;
+  background: transparent;
+  letter-spacing: .2px;
+  border-radius: 4px;
+  -webkit-transition: background .5s, color, .5s;
+  transition: background .5s, color, .5s;
+  cursor: pointer;
+  font-size: 1.01rem;
+}
+
+.Contact-right-side button:hover {
+  background: #A0CA3B;
+  color: white;
+}
+
+.Contact .dotted-bg {
+  background-repeat: repeat;
+}
+
+@media screen and (max-width: 1100px) {
+  .Contact {
+    padding: 100px 0;
+  }
+  .Contact-left-side-title {
+    text-align: center;
+  }
+  .Contact-left-side img {
+    height: 200px;
+    width: 200px;
+  }
+  .Contact-left-side .separator {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(230px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    width: 100%;
+    justify-items: center;
+    -webkit-box-align: space-around;
+        -ms-flex-align: space-around;
+            align-items: space-around;
+  }
+  .Contact-title {
+    text-align: center;
+  }
+  .Contact-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 80px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Contact-right-side {
+    overflow: hidden;
+  }
+  .Contact-right-side .input-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

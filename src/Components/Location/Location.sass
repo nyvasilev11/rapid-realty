@@ -1,0 +1,79 @@
+.Location
+    padding: 100px 0
+    &-title
+        font-size: 3.8rem
+        margin-bottom: 15px
+        color: #212529
+
+    &-description
+        color: #9D9FA1
+        font-weight: 500
+        font-size: 1.8rem
+        letter-spacing: .3px
+        margin-bottom: 80px
+
+    .map-container
+        position: relative
+        iframe
+            width: 100%
+            border-radius: 5px
+            background: #dadddf
+            outline: none
+        .map-description
+            position: absolute
+            bottom: -65px
+            left: 30px
+            background: white
+            overflow: hidden
+            width: 260px
+            box-shadow: 2px 2px 6px #00000059
+            padding: 0
+            margin: 0
+            display: flex
+            flex-direction: column
+            border-radius: 3px
+
+            .map-info
+                padding: 30px 25px
+                &-title
+                    font-size: 1.4rem
+                    font-weight: 500
+                    margin-bottom: 25px
+                &-address
+                    font-size: 1rem
+                    line-height: 1.7rem
+                    // font-weight: 300
+                    margin-bottom: 20px
+                &-latitude
+                    margin-bottom: 8px
+                &-latitude, &-longitude
+                    display: flex
+                    justify-content: space-between
+
+            img
+                height: 180px
+                width: 100%
+                object-fit: cover
+                object-position: center
+                margin: 0
+                padding: 0
+
+@media screen and ( max-width: 900px  )
+    .Location
+        .map-container
+            .map-description
+                position: relative
+                bottom: 0px
+                left: 0px
+                background: white
+                overflow: hidden
+                width: 100%
+                box-shadow: 2px 2px 6px #00000059
+                padding: 0
+                margin-bottom: 30px
+                display: flex
+                flex-direction: column
+                border-radius: 3px
+
+                .map-info
+                    padding: 40px 30px

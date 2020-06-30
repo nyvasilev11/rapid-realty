@@ -1,0 +1,138 @@
+.Pricing {
+  padding: 100px 0;
+}
+
+.Pricing-title {
+  font-size: 3.2rem;
+  color: #212529;
+  margin-bottom: 90px;
+}
+
+.Pricing-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(270px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-gap: 40px 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Pricing img {
+  max-height: 320px;
+  height: auto;
+}
+
+.Pricing .green-box {
+  background: #95C425;
+  color: white;
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.Pricing .white-box {
+  color: #8A8C8E;
+}
+
+.Pricing-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-shadow: 2px 2px 16px #2b292931;
+          box-shadow: 2px 2px 16px #2b292931;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.Pricing-box .white-price {
+  background: #F0F0F0;
+  color: #5F6264;
+}
+
+.Pricing-box .green-price {
+  background: #8CB823;
+  color: #364228;
+}
+
+.Pricing-box-price {
+  background: #F0F0F0;
+  color: #5F6264;
+  width: 100%;
+  padding: 35px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  letter-spacing: .2px;
+}
+
+.Pricing-box-price span {
+  font-size: 3.2rem;
+  letter-spacing: .3px;
+  font-weight: 700;
+}
+
+.Pricing-box-price .black {
+  color: black;
+}
+
+.Pricing-box-price .white {
+  color: white;
+}
+
+.Pricing-box ul {
+  text-align: center;
+  padding: 35px 0 60px;
+}
+
+.Pricing-box ul li {
+  line-height: 1.4rem;
+  list-style: none;
+}
+
+.Pricing-box button {
+  padding: 15px 17px;
+  border-radius: 3px;
+  border-style: none;
+  font-size: 1.05rem;
+  letter-spacing: .2px;
+  font-weight: 700;
+  -webkit-box-shadow: 1px 1px 4px #00000062;
+          box-shadow: 1px 1px 4px #00000062;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.Pricing-box button.green {
+  color: white;
+  background: #95C425;
+  -webkit-transition: background .4s;
+  transition: background .4s;
+}
+
+.Pricing-box button.green:hover {
+  background: #85af21;
+}

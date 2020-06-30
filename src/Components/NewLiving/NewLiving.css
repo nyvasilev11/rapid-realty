@@ -1,0 +1,92 @@
+.NewLiving {
+  padding: 200px 0;
+}
+
+.NewLiving-container {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(420px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-gap: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.NewLiving-container .dotted-bg {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+  background: url("http://themestarz.net/html/housing/assets/img/pattern-dot.png");
+}
+
+.NewLiving .left-side {
+  text-align: end;
+}
+
+.NewLiving .left-side .NewLiving-title {
+  font-size: 3.2rem;
+}
+
+.NewLiving .left-side .NewLiving-text {
+  color: #949698;
+  line-height: 1.8rem;
+  margin: 40px 0 30px;
+}
+
+.NewLiving .left-side button {
+  background: transparent;
+  border-style: none;
+  border: 5px solid #A0CA3B;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: background .5s, color .4s;
+  transition: background .5s, color .4s;
+}
+
+.NewLiving .left-side button:hover {
+  background: #A0CA3B;
+}
+
+.NewLiving .left-side button:hover a {
+  color: white;
+}
+
+.NewLiving .left-side button a {
+  text-decoration: none;
+  color: #5A5A5A;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.NewLiving .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.NewLiving .right-side img {
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 10px #00000069;
+          box-shadow: 3px 3px 10px #00000069;
+  max-width: 450px;
+}
+
+@media screen and (max-width: 1100px) {
+  .NewLiving-container {
+    grid-gap: 80px;
+  }
+}

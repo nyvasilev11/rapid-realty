@@ -1,0 +1,131 @@
+.Contact
+    padding: 100px 0 130px
+    color: #212529
+    background: url("http://themestarz.net/html/housing/assets/img/pattern-dot.png")
+    
+    &-title 
+        font-size: 3.2rem
+        letter-spacing: .5px
+        margin-bottom: 60px 
+    &-content 
+        display: grid 
+        grid-template-columns: 50% 50%
+        grid-gap: 20px
+    
+    &-left-side
+        .separator
+            display: grid 
+            grid-template-columns: repeat(2,170px)
+            grid-gap: 20px
+            align-items: center
+
+            .name 
+                font-weight: 700
+                font-size: 1.1rem
+                color: #212529
+                margin-bottom: 17px
+                letter-spacing: .3px
+            p 
+                margin-bottom: 10px
+                strong 
+                    font-size: .8rem
+                    display: block
+                    margin-bottom: 3px
+        &-title
+            margin-bottom: 25px
+            letter-spacing: .2px 
+            // font-size: 1.rem
+        img 
+            border-radius: 50% 
+            height: 160px
+            width: 160px
+            object-fit: cover
+            object-position: center 
+            box-shadow: 1px 1px 8px #0000003d
+
+            
+    &-right-side
+        &-title 
+            margin-bottom: 30px
+            font-size: 1.3rem
+            color: #212529
+        .input-container 
+            display: flex 
+        label 
+            font-size: .8rem
+            font-weight: 700
+            color: #212529
+            margin-bottom: 18px
+        
+        textarea 
+            min-height: 160px
+
+        input, textarea
+            border: 2px solid #D9D9D9
+            border-radius: 3px
+            padding: 15px 13px 
+            color: #63696F
+            letter-spacing: .2px
+            font-size: .95rem
+            margin-bottom: 25px
+        .input-box 
+            display: flex 
+            flex-direction: column
+            width: 100%
+            &:first-child
+                margin-right: 15px
+            
+        .textarea-container 
+            display: flex 
+            flex-direction: column
+            label
+                margin-bottom: 18px
+        button 
+            border: 4px solid #A0CA3B
+            padding: 10px 15px 
+            color: #272727
+            font-weight: 500
+            background: transparent 
+            letter-spacing: .2px 
+            border-radius: 4px
+            transition: background .5s, color, .5s
+            cursor: pointer
+            font-size: 1.01rem
+
+            &:hover 
+                background: #A0CA3B 
+                color: white
+    .dotted-bg
+        background-repeat: repeat
+        
+                
+@media screen and ( max-width: 1100px )
+    .Contact
+        padding: 100px 0
+        &-left-side
+            &-title 
+                text-align: center
+            img 
+                height: 200px
+                width: 200px
+            .separator
+                display: grid 
+                grid-template-columns: repeat(auto-fit, minmax(230px, 1fr))
+                width: 100%
+                justify-items: center
+                align-items: space-around
+
+        &-title 
+            text-align: center
+        &-content 
+            display: grid 
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr))
+            grid-gap: 80px
+    
+@media screen and ( max-width: 900px  )
+    .Contact
+        &-right-side 
+            overflow: hidden
+            .input-container 
+                flex-direction: column
+            
